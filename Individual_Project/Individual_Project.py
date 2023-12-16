@@ -11,7 +11,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, confusion_matrix
 
 # Read the dataset
-file_path = r'/Users/danelyatukibay/Desktop/spotify_songs.csv'
+file_path = 'spotify_songs.csv'
 df = pd.read_csv(file_path)
 
 # Convert the release date to timestamp
